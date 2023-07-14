@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Overpass', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+
+}
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(216, 12%, 8%);
+    height: 100vh;
+    font-weight: 400;
+    font-size: 15px;
+    color: grey;
+}
+.front{
+    background-color:hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 15px;
+    padding: 25px 20px;
+    width: clamp(360px,50%,420px);
+}
+.front img{
+    padding:10px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.front h2{
+
+    color: white;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 18px;
+}
+.front p{
+    margin-bottom: 30px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.box {
+    position: relative;
+    height: 39px;
+    width: 39px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: grid;
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    place-items: center;
+    background-color: white;
+}
+
+.box:hover input ~ .checkmark {
+    background-color: grey;
+}
+
+.box input[type=radio]:checked ~ .checkmark {
+    background-color: hsl(25, 97%, 53%);
+}
+button{
+    width: 100%;
+    padding: 1rem;
+    font-size: 15px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    outline: none;
+    transition: all ease .2s;
+    border: 1px solid  hsl(25, 97%, 53%);;
+    margin-top: 25px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    border:1px solid white;
+}
+.back{
+    background-color: black;
+    padding: 35px 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: clamp(360px,50%,400px);
+    display:none;
+
+}
+.back img{
+    margin: 10px 25px;
+}
+.back p{
+    margin-bottom: 20px;
+}
+.back h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.span p{
+    display: inline;
+    background-color: palevioletred;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 8px;
+}
+.span{
+    margin: 20px;
+}
+.num{
+    font-size: 50px;
+}

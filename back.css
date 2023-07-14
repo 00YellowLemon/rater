@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Overpass', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+
+}
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(216, 12%, 8%);
+    height: 100vh;
+    font-weight: 400;
+    font-size: 15px;
+    color:hsl(217, 12%, 63%);
+}
+
+.back{
+    color: hsl(217, 12%, 63%);
+    background-color:hsl(213, 19%, 18%);
+    padding: 35px 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: clamp(360px,50%,400px);
+
+}
+.back img{
+    margin: 10px 25px;
+}
+.back p{
+    margin-bottom: 20px;
+}
+.back h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.span p{
+    display: inline;
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 12px;
+    font-size: 17px;
+    padding: 8px;
+}
+.span{
+    margin: 20px;
+    text-transform: capitalize;
+}
+.num{
+    font-size: 20px;
+}

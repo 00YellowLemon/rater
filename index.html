@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="front">
+    <div class="star">
+      <img src="/images/icon-star.svg" alt="">
+    </div>
+    <h2>How did we do?</h2>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <form action="Blue.html" name="radi" onsubmit="return validate()">
+      <div class="btn">
+        <div class="box">
+          <input type="radio" value="1" name="rad">
+          <span class="checkmark">1</span>
+        </div>
+        <div class="box">
+          <input type="radio" value="2" name="rad">
+          <span class="checkmark">2</span>
+        </div>
+        <div class="box">
+          <input type="radio" value="3" name="rad">
+          <span class="checkmark">3</span>
+        </div>
+        <div class="box">
+          <input type="radio" value="4" name="rad">
+          <span class="checkmark">4</span>
+        </div>
+        <div class="box">
+          <input type="radio" value="5" name="rad">
+          <span class="checkmark">5</span>
+        </div>
+      </div>
+      
+      <button type="submit">SUBMIT</button>
+    </form>
+  </div>
+  
+  <script src="number.js"></script>
+</body>
+</html>
